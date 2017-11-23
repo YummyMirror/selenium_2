@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.stqa.selenium:webdriver-factory:4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.stqa.selenium/webdriver-factory/4.2/765cf3b51c7f51a80040193e9623c3fac2bbd784/webdriver-factory-4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.stqa.selenium/webdriver-factory/4.2/615e772f513683d9172332f73c545d9af869051c/webdriver-factory-4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

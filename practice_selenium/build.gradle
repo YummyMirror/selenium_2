@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+//Setting compatibility mode between Java and Selenium
+sourceCompatibility = 1.8
+
+//Repository and dependencies for TestNG
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //Including TestNG framework
+    compile 'org.testng:testng:6.11'
+
+    //Including WebDriver 3+ version
+    //compile 'org.seleniumhq.selenium:selenium-java:3.6.0'
+    compile 'org.seleniumhq.selenium:selenium-java:3.7.1'
+
+    //Including WebDriver Factory
+    compile 'ru.stqa.selenium:webdriver-factory:4.2'
+}
+
+test {
+    useTestNG()
+}
