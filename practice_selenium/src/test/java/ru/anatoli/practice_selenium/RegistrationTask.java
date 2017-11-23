@@ -1,27 +1,61 @@
 package ru.anatoli.practice_selenium;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import java.io.File;
+import java.io.IOException;
 import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.List;
 
 public class RegistrationTask {
-    WebDriver wd;
+    EventFiringWebDriver wd;
     WebDriverWait wait;
     private String email;
     private static final String PASSWORD = "password";
 
+    public class Listener extends AbstractWebDriverEventListener {
+        @Override
+        public void beforeFindBy(By by, WebElement element, WebDriver driver) {
+            System.out.println("Locator: " + by);
+        }
+
+        @Override
+        public void afterFindBy(By by, WebElement element, WebDriver driver) {
+            System.out.println("Locator '" + by + "' found");
+        }
+
+        @Override
+        public void onException(Throwable throwable, WebDriver driver) {
+            System.out.println("Exception is: " + throwable);
+            File tempFile = wd.getScreenshotAs(OutputType.FILE);
+            File file = new File("src/test/resources/Screenshots/screen_" +
+                                            System.currentTimeMillis() + ".png");
+            try {
+                Files.copy(tempFile, file);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Screenshot " + file.getName());
+        }
+    }
+
     @BeforeMethod
     public void before() {
-        wd = new ChromeDriver();
+        wd = new EventFiringWebDriver(new ChromeDriver());
+        wd.register(new Listener());
         wait = new WebDriverWait(wd, 10);
         wd.manage().window().maximize();
         wd.navigate().to("http://localhost/litecart/public_html/en/");

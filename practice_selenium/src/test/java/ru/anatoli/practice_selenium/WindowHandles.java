@@ -9,7 +9,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class WindowHandles {
     WebDriver wd;
@@ -25,7 +24,6 @@ public class WindowHandles {
 
     @Test
     public void test() {
-        String google = wd.getWindowHandle();
         String mainWindow = wd.getWindowHandle();
         Set<String> windowHandlesBefore = wd.getWindowHandles();
         ((JavascriptExecutor) wd).executeScript("window.open();");

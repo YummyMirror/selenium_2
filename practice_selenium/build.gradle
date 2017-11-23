@@ -18,6 +18,14 @@ dependencies {
 
     //Including WebDriver Factory
     compile 'ru.stqa.selenium:webdriver-factory:4.2'
+
+    //Including Gson library
+    compile 'com.google.code.gson:gson:2.8.2'
+
+    //Including Proxy
+    compile ('net.lightbody.bmp:browsermob-core:2.1.5') {
+        exclude module: 'selenium'
+    }
 }
 
 test {

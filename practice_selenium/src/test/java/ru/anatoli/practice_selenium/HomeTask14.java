@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -27,6 +28,20 @@ public class HomeTask14 {
 
     @Test
     public void test() {
+//        First version
+//        login("admin", "admin");
+//        openCountriesPage();
+//        openAustriaCountry();
+//        List<WebElement> blankLinks = getBlankLinks();
+//        for (int i = 0; i < blankLinks.size(); i++) {
+//            List<WebElement> links = getBlankLinks();
+//            String mainWindow = wd.getWindowHandle();
+//            links.get(i).click();
+//            Set<String> windowHandlesBefore = wd.getWindowHandles();
+//            String newWindow = getNewWindow(mainWindow, windowHandlesBefore);
+//            openNewWindow(newWindow);
+//            close();
+//            openOldWindow(mainWindow);
         login("admin", "admin");
         openCountriesPage();
         openAustriaCountry();
@@ -34,13 +49,24 @@ public class HomeTask14 {
         for (int i = 0; i < blankLinks.size(); i++) {
             List<WebElement> links = getBlankLinks();
             String mainWindow = wd.getWindowHandle();
+            Set<String> oldWindowHandles = wd.getWindowHandles();
             links.get(i).click();
-            Set<String> windowHandlesBefore = wd.getWindowHandles();
-            String newWindow = getNewWindow(mainWindow, windowHandlesBefore);
+            String newWindow = wait.until(waitForNewWindow(oldWindowHandles));
             openNewWindow(newWindow);
             close();
             openOldWindow(mainWindow);
         }
+    }
+
+    public ExpectedCondition<String> waitForNewWindow(Set<String> oldWindowHandles) {
+        return wd -> {
+            Set<String> handles = wd.getWindowHandles();
+            handles.removeAll(oldWindowHandles);
+            if (handles.size() > 0)
+                return handles.stream().findAny().get();
+            else
+                return null;
+        };
     }
 
     public void openOldWindow(String mainWindow) {

@@ -1,4 +1,4 @@
-package ru.anatoli.practice_selenium;
+package ru.anatoli.practice_selenium.OtherTestingNeeds;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
