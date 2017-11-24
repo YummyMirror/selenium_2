@@ -9,6 +9,7 @@ public class ApplicationManager {
     private WebDriverWait wait;
     private NavigationHelper navigationHelper;
     private SessionHelper sessionHelper;
+    private CountriesHelper countriesHelper;
 
     public void init() {
         wd = new ChromeDriver();
@@ -18,6 +19,7 @@ public class ApplicationManager {
         //Delegates
         sessionHelper = new SessionHelper(wd, wait);
         navigationHelper = new NavigationHelper(wd, wait);
+        countriesHelper = new CountriesHelper(wd, wait);
     }
 
     public void tearDown() {
@@ -33,5 +35,9 @@ public class ApplicationManager {
 
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
+    }
+
+    public CountriesHelper getCountriesHelper() {
+        return countriesHelper;
     }
 }

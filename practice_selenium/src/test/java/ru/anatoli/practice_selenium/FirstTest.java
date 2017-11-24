@@ -38,7 +38,7 @@ public class FirstTest {
 
     public void SetDatePicker(WebDriver wd, String xPathSelector, String date) {
         new WebDriverWait(wd, 30).until((ddate) -> wd.findElement(By.xpath(xPathSelector)).isDisplayed());
-        ((JavascriptExecutor) wd).executeScript(String.format("$('{0}').datepicker('setDate', '{1}')", xPathSelector, date));
+        ((JavascriptExecutor) wd).executeScript(String.format("$('{0}').datepicker('setDateUsingPicker', '{1}')", xPathSelector, date));
     }
 
     @AfterMethod

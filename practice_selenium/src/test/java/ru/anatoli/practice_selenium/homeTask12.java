@@ -103,7 +103,7 @@ public class homeTask12 {
     public void setDatePicker(WebDriver driver, String cssSelector, String date) {
         new WebDriverWait(driver, 30).until((d) -> driver.findElement(By.cssSelector(cssSelector)).isDisplayed());
         ((JavascriptExecutor) wd).executeScript(
-            String.format("$('{0}').datepicker('setDate', '{1}')", cssSelector, date));
+            String.format("$('{0}').datepicker('setDateUsingPicker', '{1}')", cssSelector, date));
     }
 
     public void select(By locator, String value) {
