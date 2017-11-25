@@ -15,10 +15,10 @@ public class BasketPage extends PageBase {
     }
 
     public void removeAllProductsFromBasket() {
-        List<WebElement> productsInTable = getProductsFromOrderTable();
-        for (int i = 0; i < productsInTable.size(); i++) {
+        for (int i = 0; i < getProductsFromOrderTable().size(); i++) {
+            List<WebElement> ducksInTable = getProductsFromOrderTable();
             wait.until(elementToBeClickable(By.xpath("//button[@name = 'remove_cart_item']"))).click();
-            wait.until(numberOfElementsToBe(By.xpath("//table[@class = 'dataTable rounded-corners']//td[@class = 'item']"), productsInTable.size() - 1));
+            wait.until(numberOfElementsToBe(By.xpath("//table[@class = 'dataTable rounded-corners']//td[@class = 'item']"), ducksInTable.size() - 1));
         }
     }
 

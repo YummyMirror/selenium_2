@@ -36,27 +36,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddItemToBasket.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddItemToBasket.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            <state relative-caret-position="119">
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -65,27 +50,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="method#tearDown#0;class#Application#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/PageBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="method#PageBase#0;class#PageBase#0" expanded="false" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +64,8 @@
             <state relative-caret-position="34">
               <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,18 +74,18 @@
       <file leaf-file-name="ProductPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="30" column="106" lean-forward="false" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasketPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasketPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/BasketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -527,12 +494,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/BasketPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/PageBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/BasketPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java" />
       </list>
     </option>
   </component>
@@ -939,18 +906,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddItemToBasket - 2017.11.25 at 00h 52m 48s.xml">
-      <configuration name="AddItemToBasket" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemToBasket - 2017.11.25 at 00h 53m 05s.xml">
-      <configuration name="AddItemToBasket" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemToBasket - 2017.11.25 at 00h 57m 29s.xml">
-      <configuration name="AddItemToBasket" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemToBasket - 2017.11.25 at 01h 12m 59s.xml">
-      <configuration name="AddItemToBasket" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddItemToBasket - 2017.11.25 at 01h 16m 55s.xml">
       <configuration name="AddItemToBasket" configurationId="TestNG" />
     </history-entry>
@@ -967,6 +922,18 @@
       <configuration name="AddItemToBasket" configurationId="TestNG" />
     </history-entry>
     <history-entry file="AddItemToBasket - 2017.11.25 at 01h 37m 28s.xml">
+      <configuration name="AddItemToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddItemToBasket - 2017.11.25 at 14h 39m 01s.xml">
+      <configuration name="AddItemToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddItemToBasket - 2017.11.25 at 14h 39m 43s.xml">
+      <configuration name="AddItemToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddItemToBasket - 2017.11.25 at 14h 43m 19s.xml">
+      <configuration name="AddItemToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddItemToBasket - 2017.11.25 at 14h 43m 45s.xml">
       <configuration name="AddItemToBasket" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1432,14 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1453,20 +1412,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="method#tearDown#0;class#Application#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/PageBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="408">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="method#PageBase#0;class#PageBase#0" expanded="false" />
             <element signature="e#653#654#0" expanded="true" />
@@ -1479,29 +1428,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="method#tearDown#0;class#Application#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="30" column="106" lean-forward="false" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/BasketPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding />
         </state>
       </provider>

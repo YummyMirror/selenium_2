@@ -14,14 +14,13 @@ public class ProductPage extends PageBase {
         super(wd, wait);
     }
 
-    public void addThreeProductsToBasket() {
-        for (int i = 0; i < 3; i++) {
+    public void addProductsToBasket(int products) {
+        for (int i = 0; i < products; i++) {
             mainPage.getAllProducts().get(0).click();
             wait.until(visibilityOfElementLocated(By.xpath("//h1[@class = 'title']")));
 
-            if (areElementsPresent(By.xpath("//select[contains(@name, 'options')]"))) {
+            if (areElementsPresent(By.xpath("//select[contains(@name, 'options')]")))
                 select(By.xpath("//select[contains(@name, 'options')]"), "Large +$5");
-            }
             addProductToBasket(getBasketCount());
             back();
         }
