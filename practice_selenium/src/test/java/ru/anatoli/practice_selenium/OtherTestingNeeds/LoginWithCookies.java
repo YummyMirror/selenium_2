@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,15 +20,12 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 public class LoginWithCookies {
     private WebDriver wd;
     private WebDriverWait wait;
-    private Actions actions;
     private String format = "json";
 
     @BeforeMethod
     public void before() {
         wd = new ChromeDriver();
         wait = new WebDriverWait(wd, 10);
-        actions = new Actions(wd);
-
         wd.manage().window().maximize();
         wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
     }
@@ -82,7 +79,7 @@ public class LoginWithCookies {
     }
 
     public void submitForm(By locator) {
-        wd.findElement(locator).click();
+        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
 
     public void checkBox(By locator) {
@@ -90,9 +87,11 @@ public class LoginWithCookies {
     }
 
     public void input(By locator, String value) {
-        wd.findElement(locator).click();
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(value);
+        if (value != null) {
+            wd.findElement(locator).click();
+            wd.findElement(locator).clear();
+            wd.findElement(locator).sendKeys(value);
+        }
     }
 
     @AfterMethod

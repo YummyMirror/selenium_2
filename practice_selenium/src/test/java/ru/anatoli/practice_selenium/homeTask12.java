@@ -1,12 +1,12 @@
 package ru.anatoli.practice_selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,14 +14,30 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import static org.testng.Assert.assertEquals;
 
 public class homeTask12 {
-    WebDriver wd;
-    WebDriverWait wait;
+    private EventFiringWebDriver wd;
+    private WebDriverWait wait;
     private String name = "TestName";
     private String photo = "src/test/resources/1.jpg";
+
+    public class MyEventListener extends AbstractWebDriverEventListener{
+        @Override
+        public void onException(Throwable throwable, WebDriver driver) {
+            System.out.println("!!! Exceptions is: " + throwable);
+            File screenShot = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+            File file = new File("d:/" + System.currentTimeMillis() + ".png");
+            try {
+                Files.copy(screenShot, file);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Screenshot is :" + file);
+        }
+    }
 
     @BeforeMethod
     public void before() {
@@ -29,8 +45,9 @@ public class homeTask12 {
         FirefoxOptions options = new FirefoxOptions();
         options.setLegacy(false);
         options.setCapability(CapabilityType.PAGE_LOAD_STRATEGY, "eager");
-        wd = new FirefoxDriver(options);
+        wd = new EventFiringWebDriver(new FirefoxDriver(options));
         wait = new WebDriverWait(wd, 10);
+        wd.register(new MyEventListener());
         wd.manage().window().maximize();
         wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
     }
@@ -98,12 +115,6 @@ public class homeTask12 {
         input(By.xpath("//input[@name = 'gross_prices[USD]']"), "2500");
         input(By.xpath("//input[@name = 'prices[EUR]']"), "2200");
         input(By.xpath("//input[@name = 'gross_prices[EUR]']"), "2200");
-    }
-
-    public void setDatePicker(WebDriver driver, String cssSelector, String date) {
-        new WebDriverWait(driver, 30).until((d) -> driver.findElement(By.cssSelector(cssSelector)).isDisplayed());
-        ((JavascriptExecutor) wd).executeScript(
-            String.format("$('{0}').datepicker('setDateUsingPicker', '{1}')", cssSelector, date));
     }
 
     public void select(By locator, String value) {

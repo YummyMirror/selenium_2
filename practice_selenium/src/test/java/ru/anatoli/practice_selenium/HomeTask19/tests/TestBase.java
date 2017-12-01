@@ -1,14 +1,18 @@
 package ru.anatoli.practice_selenium.HomeTask19.tests;
 
+import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import ru.anatoli.practice_selenium.HomeTask19.app.Application;
 
+@Listeners(MyTestListener.class)
 public class TestBase {
     protected static Application app = new Application();
 
     @BeforeSuite
-    public void start() {
+    public void start(ITestContext context) {
+        context.setAttribute("app", app);
         app.setUp();
     }
 

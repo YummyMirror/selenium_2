@@ -8,12 +8,15 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    agent
+}
+
 dependencies {
     //Including TestNG framework
     compile 'org.testng:testng:6.11'
 
     //Including WebDriver 3+ version
-    //compile 'org.seleniumhq.selenium:selenium-java:3.6.0'
     compile 'org.seleniumhq.selenium:selenium-java:3.7.1'
 
     //Including WebDriver Factory
@@ -26,8 +29,25 @@ dependencies {
     compile ('net.lightbody.bmp:browsermob-core:2.1.5') {
         exclude module: 'selenium'
     }
+
+    //Including Allure report
+    agent 'org.aspectj:aspectjweaver:1.8.0'
+    compile 'ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4'
+
+    //Including Winium
+    compile 'com.github.2gis.winium:winium-webdriver:0.1.0-1'
 }
 
 test {
     useTestNG()
+}
+
+task myTest(type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/tests.xml'
+    }
+}
+
+myTest.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
 }

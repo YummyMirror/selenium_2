@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="tests" verbose="1">
+    <test name="test1">
+        <classes>
+            <class name="ru.anatoli.practice_selenium.RegistrationTask" />
+        </classes>
+    </test>
+</suite>

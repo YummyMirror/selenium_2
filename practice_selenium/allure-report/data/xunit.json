@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1511718021136,
+    "stop" : 1511718031279,
+    "duration" : 10143
+  },
+  "testSuites" : [ {
+    "uid" : "1f9639db41f2b121",
+    "name" : "Default Suite",
+    "title" : "Default suite",
+    "time" : {
+      "start" : 1511718021136,
+      "stop" : 1511718031279,
+      "duration" : 10143
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ee8308341b25ae81",
+      "name" : "testAddItemToBasket",
+      "title" : "Test add item to basket",
+      "time" : {
+        "start" : 1511718021136,
+        "stop" : 1511718031279,
+        "duration" : 10143
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
