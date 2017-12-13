@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BrowserStackExecution" parallel="none">
+    <!--<test name="Chrome" >-->
+        <!--<parameter name="browser" value="CHROME" />-->
+        <!--<classes>-->
+            <!--<class name="ru.anatoli.practice_selenium.OtherTestingNeeds.SeleniumCloud" />-->
+        <!--</classes>-->
+    <!--</test>-->
+    <test name="FireFox" >
+        <parameter name="browser" value="FIREFOX" />
+        <classes>
+            <class name="ru.anatoli.practice_selenium.OtherTestingNeeds.SeleniumCloud" />
+        </classes>
+    </test>
+</suite>

@@ -36,6 +36,12 @@ dependencies {
 
     //Including Winium
     compile 'com.github.2gis.winium:winium-webdriver:0.1.0-1'
+
+    //Including Log4j
+    compile 'org.apache.logging.log4j:log4j:2.10.0'
+
+    //Including BrowserStack
+    compile 'com.browserstack:browserstack-local-java:1.0.2'
 }
 
 test {

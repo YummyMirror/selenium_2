@@ -13,6 +13,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/practice_selenium$StreamsManipulations.coverage" NAME="StreamsManipulations Coverage Results" MODIFIED="1512486138045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.anatoli.practice_selenium.OtherTestingNeeds.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/practice_selenium$DownloadFile_download.coverage" NAME="DownloadFile.download Coverage Results" MODIFIED="1512636447759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.anatoli.practice_selenium.JQueryUIActions.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/practice_selenium$JSManipulations_test.coverage" NAME="JSManipulations.test Coverage Results" MODIFIED="1512384172941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.anatoli.practice_selenium.JQueryUIActions.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/practice_selenium$BrowserLogsUsimg_test.coverage" NAME="BrowserLogsUsimg.test Coverage Results" MODIFIED="1512403221505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.anatoli.practice_selenium.JQueryUIActions.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/practice_selenium$Manipulations_test3.coverage" NAME="Manipulations.test3 Coverage Results" MODIFIED="1512140263286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.anatoli.practice_selenium.JQueryUIActions.*</FILTER>
     </SUITE>
@@ -41,20 +53,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Manipulations.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/JQueryUIActions/Manipulations.java">
+      <file leaf-file-name="DisablingImages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/DisablingImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="340">
+              <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="71" />
               <folding>
-                <element signature="method#before#0;class#Manipulations#0" expanded="false" />
-                <element signature="method#test1#0;class#Manipulations#0" expanded="false" />
-                <element signature="method#test2#0;class#Manipulations#0" expanded="false" />
-                <element signature="method#test3#0;class#Manipulations#0" expanded="false" />
-                <element signature="method#setDate#0;class#Manipulations#0" expanded="false" />
-                <element signature="method#openPage#0;class#Manipulations#0" expanded="false" />
-                <element signature="method#after#0;class#Manipulations#0" expanded="false" />
+                <element signature="method#after#0;class#DisablingImages#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeleniumCloud.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumCloud.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="80" column="114" lean-forward="false" selection-start-line="80" selection-start-column="114" selection-end-line="80" selection-end-column="114" />
+              <folding>
+                <element signature="method#before#0;class#SeleniumCloud#0" expanded="false" />
+                <element signature="e#1348#1403#0" expanded="false" />
+                <element signature="method#getAllProjectTypes#0;class#SeleniumCloud#0" expanded="false" />
+                <element signature="method#getMenuItems#0;class#SeleniumCloud#0" expanded="false" />
+                <element signature="method#after#0;class#SeleniumCloud#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloudExecution.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/cloudExecution.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -259,8 +291,8 @@
     <option name="modificationStamps">
       <map>
         <entry key="E:/Private/Work/Repositories/st_java_course/addressbook" value="1497986888733" />
-        <entry key="$PROJECT_DIR$" value="3023244095240" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1899557656" />
+        <entry key="$PROJECT_DIR$" value="3024487117977" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2910275555" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="212106163" />
       </map>
     </option>
@@ -434,65 +466,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/RegistrationTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/CheckBrowserLogs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/ProxyUsing.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/ApplicationManeger.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/SessionHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask17.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/models/CountryData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/MyListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/CountriesHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/DatePicker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/homeTask13.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/HelperBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/AddItemToBusket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/AddItemToBasket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/Application.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/PageBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/dafgafdgdfgfdgfdgfdgdfgfdg.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestManipulations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/homeTask12.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/rrrfrferfhfuehdfiuewhduewhfuewdiw.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/tests.fxml" />
-        <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/tests.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/MyListenerClass.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/JQueryUIActions/BrowserLogsUsing.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/StreamsManipulations.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Wheels.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Engine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Car.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample2/HumanController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample2/Arms.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample2/Legs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample2/Human.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/HumanController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/JQueryUIActions/DownloadFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/RegistrationTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/DataBaseManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/DataBaseManagerTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/parallel_execution.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/parallel_execution_methods.fxml" />
+        <option value="$PROJECT_DIR$/src/test/resources/parallel_execution_methods.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/MyTestListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/BasketPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginCarShering.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/multiple_browsers.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TempStructure/TestBase1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TempStructure/AppBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TempStructure/SomeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TempStructure/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TempStructure/TestBaseOfTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/AppBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/TestBaseOfTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/multiple.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/ProxyUsing.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/DisablingImages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/FirstTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/WiniumDesktop.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginCarSharing.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginWithCookies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginWithoutCookies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/CarsharingLoginWithCookies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/STLoginWithoutCookies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/STLoginWithCookies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/UYCLoginWithoutCookies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/ExpectedConditions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/ExpectedConditionsTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/JQueryUIActions/Manipulations.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/browserstack.local" />
+        <option value="$PROJECT_DIR$/src/test/resources/browserstack.local.json" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/MyTestListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumCloud.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/cloudExecution.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="103" />
-    <option name="y" value="144" />
-    <option name="width" value="1455" />
-    <option name="height" value="817" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="29" />
+    <option name="y" value="187" />
+    <option name="width" value="1489" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -509,7 +547,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -543,22 +581,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="practice_selenium" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice_selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice_selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="JQueryUIActions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -571,10 +600,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.anatoli.practice_selenium.TempStructure" />
+      <recent name="ru.anatoli.practice_selenium.DelegationSample2" />
       <recent name="ru.anatoli.practice_selenium.HomeTask19.pages" />
       <recent name="ru.anatoli.practice_selenium.HomeTask19" />
       <recent name="ru.anatoli.practice_selenium.TestStructure.applicationManager" />
-      <recent name="ru.anatoli.practice_selenium.TestStructure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,11 +619,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Manipulations.test5">
-    <configuration name="Manipulations.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.F:/Private/Work/Repositories/selenium_2/practice_selenium/src/test/resources/cloudExecution.xml">
+    <configuration name="F:/Private/Work/Repositories/selenium_2/practice_selenium/src/test/resources/cloudExecution.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="practice_selenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cloudExecution.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="FirstTest.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.anatoli.practice_selenium.JQueryUIActions.*" />
+          <option name="PATTERN" value="ru.anatoli.practice_selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,9 +658,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions" />
-      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions.Manipulations" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.FirstTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -622,10 +679,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Manipulations.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.test5" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.anatoli.practice_selenium.JQueryUIActions.*" />
+          <option name="PATTERN" value="ru.anatoli.practice_selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -633,107 +690,75 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions" />
-      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions.Manipulations" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Manipulations.test3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.anatoli.practice_selenium.JQueryUIActions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice_selenium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions" />
-      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions.Manipulations" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Manipulations.test4" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.anatoli.practice_selenium.JQueryUIActions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice_selenium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions" />
-      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions.Manipulations" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Manipulations.test5" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.anatoli.practice_selenium.JQueryUIActions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice_selenium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions" />
-      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.JQueryUIActions.Manipulations" />
+      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.FirstTest" />
       <option name="METHOD_NAME" value="test5" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SeleniumCloud" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.anatoli.practice_selenium.OtherTestingNeeds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice_selenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.OtherTestingNeeds" />
+      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.OtherTestingNeeds.SeleniumCloud" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SeleniumGrid" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.anatoli.practice_selenium.OtherTestingNeeds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice_selenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.anatoli.practice_selenium.OtherTestingNeeds" />
+      <option name="MAIN_CLASS_NAME" value="ru.anatoli.practice_selenium.OtherTestingNeeds.SeleniumGrid" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -831,19 +856,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Manipulations.test1" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Manipulations.test2" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Manipulations.test3" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.Manipulations.test4" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Manipulations.test5" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.SeleniumGrid" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SeleniumCloud" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.F:/Private/Work/Repositories/selenium_2/practice_selenium/src/test/resources/cloudExecution.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.test5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Manipulations.test5" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.Manipulations.test4" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Manipulations.test3" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Manipulations.test2" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Manipulations.test1" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.F:/Private/Work/Repositories/selenium_2/practice_selenium/src/test/resources/cloudExecution.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SeleniumCloud" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.test5" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SeleniumGrid" />
       </list>
     </recent_temporary>
   </component>
@@ -864,35 +889,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 17h 57m 45s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="F__Private_Work_Repositories_selenium_2_practice_selenium_src_test_resources_cloudExecution_xml - 2017.12.12 at 23h 32m 01s.xml">
+      <configuration name="F:/Private/Work/Repositories/selenium_2/practice_selenium/src/test/resources/cloudExecution.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 17h 58m 37s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="F__Private_Work_Repositories_selenium_2_practice_selenium_src_test_resources_cloudExecution_xml - 2017.12.12 at 23h 35m 31s.xml">
+      <configuration name="F:/Private/Work/Repositories/selenium_2/practice_selenium/src/test/resources/cloudExecution.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 17h 59m 53s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 26m 35s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 18h 00m 31s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 27m 03s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 18h 00m 50s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 27m 31s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 18h 02m 47s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 27m 50s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test3 - 2017.12.01 at 18h 03m 45s.xml">
-      <configuration name="Manipulations.test3" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 28m 01s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test4 - 2017.12.01 at 18h 09m 22s.xml">
-      <configuration name="Manipulations.test4" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 28m 24s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test5 - 2017.12.01 at 18h 26m 35s.xml">
-      <configuration name="Manipulations.test5" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 28m 51s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Manipulations_test5 - 2017.12.01 at 18h 30m 40s.xml">
-      <configuration name="Manipulations.test5" configurationId="TestNG" />
+    <history-entry file="SeleniumCloud - 2017.12.12 at 23h 30m 52s.xml">
+      <configuration name="SeleniumCloud" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -905,37 +930,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27836612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32526475" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.031982943" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18710022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28441754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3211111" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296011" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -943,349 +969,83 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="160" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/StreamsManipulations.java</url>
+          <line>46</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Human.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/App.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="292" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/homeTask13.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/HumanController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/PageBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Legs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="102">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/dafgafdgdfgfdgfdgfdgdfgfdg.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/WindowHandles.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/DelegationSample/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="method#before#0;class#WindowHandles#0" expanded="false" />
-            <element signature="method#after#0;class#WindowHandles#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TryPageLoadStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestManipulations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="method#login#0;class#TestManipulations#0" expanded="false" />
-            <element signature="method#input#0;class#TestManipulations#0" expanded="false" />
-            <element signature="method#after#0;class#TestManipulations#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/ProxyUsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
-          <folding>
-            <element signature="method#openSite#0;class#ProxyUsing#0" expanded="false" />
-            <element signature="method#after#0;class#ProxyUsing#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/LiteCartLoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/LeftPanelMenuItemsNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/LeftPanelMenuItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HiddenFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/Countries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="137" column="33" lean-forward="false" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
+            <element signature="method#before#0;class#Countries#0" expanded="false" />
+            <element signature="method#getCounriesWithZones#0;class#Countries#0" expanded="false" />
+            <element signature="method#getAllZones#0;class#Countries#0" expanded="false" />
+            <element signature="method#getAllCountries#0;class#Countries#0" expanded="false" />
             <element signature="method#login#0;class#Countries#0" expanded="false" />
             <element signature="method#input#0;class#Countries#0" expanded="false" />
+            <element signature="method#isElementClickable#0;class#Countries#0" expanded="false" />
             <element signature="method#after#0;class#Countries#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/ComparisonLitecartTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/CheckStickers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/CheckBrowserLogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/ZoomButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/testActionsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/OpenSiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/OpenSiteDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.7.1/ce5028603bb9f3d3a6666b803c90dd91ba7e92b5/selenium-support-3.7.1-sources.jar!/org/openqa/selenium/support/events/AbstractWebDriverEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <element signature="method#before#0;class#HomeTask14#0" expanded="false" />
-            <element signature="e#923#946#0" expanded="false" />
-            <element signature="method#openNewWindow#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#getNewWindow#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#getBlankLinks#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#openAustriaCountry#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#openCountriesPage#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#login#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#input#0;class#HomeTask14#0" expanded="false" />
-            <element signature="method#after#0;class#HomeTask14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/homeTask12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="143" column="11" lean-forward="true" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="11" />
-          <folding>
-            <element signature="class#MyEventListener#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#getAllProducts#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#fillingGeneralTab#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#date#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#fillingInformationTab#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#fillingPricesTab#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#select#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#radio#0;class#homeTask12#0" expanded="false" />
-            <element signature="e#6024#6025#0" expanded="true" />
-            <element signature="e#6111#6112#0" expanded="true" />
-            <element signature="method#login#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#input#0;class#homeTask12#0" expanded="false" />
-            <element signature="method#after#0;class#homeTask12#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/rrrfrferfhfuehdfiuewhduewhfuewdiw.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tests.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/MyTestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/MyTestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/BasketPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/WiniumDesktop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="70" column="72" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
-          <folding>
-            <element signature="class#MyEventListener#0;class#Application#0" expanded="false" />
-            <element signature="method#tearDown#0;class#Application#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.7.1/74a46d0014b6110d4ff012cb1247fec72fc2768d/selenium-api-3.7.1-sources.jar!/org/openqa/selenium/SearchContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.7.1/74a46d0014b6110d4ff012cb1247fec72fc2768d/selenium-api-3.7.1-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/RegistrationTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="88" column="39" lean-forward="false" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+        <state relative-caret-position="202">
+          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
             <element signature="class#Listener#0;class#RegistrationTask#0" expanded="false" />
             <element signature="method#before#0;class#RegistrationTask#0" expanded="false" />
@@ -1299,134 +1059,328 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/STLoginWithCookies.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/models/CountryData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-          <folding>
-            <element signature="method#before#0;class#STLoginWithCookies#0" expanded="false" />
-            <element signature="method#getCookieJSON#0;class#STLoginWithCookies#0" expanded="false" />
-            <element signature="method#getCookieCSV#0;class#STLoginWithCookies#0" expanded="false" />
-            <element signature="e#1969#1977#0" expanded="false" />
-            <element signature="method#after#0;class#STLoginWithCookies#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="816">
+          <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/STLoginWithoutCookies.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.7.1/ce5028603bb9f3d3a6666b803c90dd91ba7e92b5/selenium-support-3.7.1-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="method#before#0;class#STLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#saveAsJSON#0;class#STLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#saveAsCSV#0;class#STLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#loginAs#0;class#STLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#input#0;class#STLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#after#0;class#STLoginWithoutCookies#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/UYCLoginWithoutCookies.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/CountriesHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-          <folding>
-            <element signature="method#before#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#test#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#getSelectedItems#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-            <element signature="e#3141#3142#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="method#loginAs#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#input#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#openLoginForm#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-            <element signature="method#after#0;class#UYCLoginWithoutCookies#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginWithoutCookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="method#getCSVCookies#0;class#LoginWithoutCookies#0" expanded="false" />
-            <element signature="e#1498#1506#0" expanded="true" />
-            <element signature="method#getJSONCookie#0;class#LoginWithoutCookies#0" expanded="false" />
-            <element signature="method#after#0;class#LoginWithoutCookies#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginWithCookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="method#before#0;class#LoginWithCookies#0" expanded="false" />
-            <element signature="method#saveJSON#0;class#LoginWithCookies#0" expanded="false" />
-            <element signature="method#saveCSV#0;class#LoginWithCookies#0" expanded="false" />
-            <element signature="method#login#0;class#LoginWithCookies#0" expanded="false" />
-            <element signature="method#input#0;class#LoginWithCookies#0" expanded="false" />
-            <element signature="method#after#0;class#LoginWithCookies#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/LoginCarSharing.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/DataBaseManagerTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="method#loginAs#0;class#LoginCarSharing#0" expanded="false" />
-            <element signature="method#input#0;class#LoginCarSharing#0" expanded="false" />
-            <element signature="method#after#0;class#LoginCarSharing#0" expanded="false" />
-          </folding>
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/parallel_execution_methods.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/parallel_execution_methods.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.stqa.selenium/webdriver-factory/4.2/615e772f513683d9172332f73c545d9af869051c/webdriver-factory-4.2-sources.jar!/ru/stqa/selenium/factory/WebDriverPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/pages/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/AddItemToBasket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="21" column="105" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="105" />
-          <folding />
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/ExpectedConditionsTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/HomeTask19/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/parallel_execution_classes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/ObjectFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/SomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/TestBaseOfTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/AppBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/StructureWithMultiBrowser/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="method#before#0;class#ExpectedConditionsTests#0" expanded="false" />
-            <element signature="method#waitNewWindow#0;class#ExpectedConditionsTests#0" expanded="false" />
-            <element signature="method#getJSONCookie#0;class#ExpectedConditionsTests#0" expanded="false" />
-            <element signature="method#after#0;class#ExpectedConditionsTests#0" expanded="false" />
+            <element signature="method#tearDown#0;class#App#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/multiple.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/JQueryUIActions/DownloadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/ProxyUsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="method#openSite#0;class#ProxyUsing#0" expanded="false" />
+            <element signature="method#after#0;class#ProxyUsing#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/applicationManager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="72" column="38" lean-forward="false" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/TestStructure/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="59" column="69" lean-forward="true" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.7.1/b1309991530b5700635e23d487b1955118f1bd70/selenium-chrome-driver-3.7.1-sources.jar!/org/openqa/selenium/chrome/ChromeOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/RemoteExecution/CloudGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="113" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/multiple_browsers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="152">
           <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/RemoteExecution/GridExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="41" column="70" lean-forward="false" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+          <folding>
+            <element signature="method#before#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#simpleTest#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#s13login#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#usingProxy#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#getAllProjectTypes#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#SetDatePicker#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#after#0;class#FirstTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="43" column="60" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/JQueryUIActions/Manipulations.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/browserstack.local" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-local-java/1.0.2/1da6c61306f6855dd40ead4a9188c36656128423/browserstack-local-java-1.0.2.jar!/META-INF/maven/com.browserstack/browserstack-local-java/pom.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-local-java/1.0.2/59ef2ae55cb6d946eb15d25855b9e48b147c9af9/browserstack-local-java-1.0.2-sources.jar!/com/browserstack/local/LocalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-local-java/1.0.2/59ef2ae55cb6d946eb15d25855b9e48b147c9af9/browserstack-local-java-1.0.2-sources.jar!/com/browserstack/local/Local.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" column="68" lean-forward="false" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-local-java/1.0.2/59ef2ae55cb6d946eb15d25855b9e48b147c9af9/browserstack-local-java-1.0.2-sources.jar!/com/browserstack/local/LocalBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/MyTestListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/browserstack.local.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/DisablingImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="71" />
           <folding>
-            <element signature="method#before#0;class#Manipulations#0" expanded="false" />
-            <element signature="method#test1#0;class#Manipulations#0" expanded="false" />
-            <element signature="method#test2#0;class#Manipulations#0" expanded="false" />
-            <element signature="method#test3#0;class#Manipulations#0" expanded="false" />
-            <element signature="method#setDate#0;class#Manipulations#0" expanded="false" />
-            <element signature="method#openPage#0;class#Manipulations#0" expanded="false" />
-            <element signature="method#after#0;class#Manipulations#0" expanded="false" />
+            <element signature="method#after#0;class#DisablingImages#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cloudExecution.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/anatoli/practice_selenium/OtherTestingNeeds/SeleniumCloud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="80" column="114" lean-forward="false" selection-start-line="80" selection-start-column="114" selection-end-line="80" selection-end-column="114" />
+          <folding>
+            <element signature="method#before#0;class#SeleniumCloud#0" expanded="false" />
+            <element signature="e#1348#1403#0" expanded="false" />
+            <element signature="method#getAllProjectTypes#0;class#SeleniumCloud#0" expanded="false" />
+            <element signature="method#getMenuItems#0;class#SeleniumCloud#0" expanded="false" />
+            <element signature="method#after#0;class#SeleniumCloud#0" expanded="false" />
           </folding>
         </state>
       </provider>

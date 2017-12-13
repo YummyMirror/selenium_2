@@ -117,6 +117,32 @@ public class Manipulations {
         assertTrue(currentValue == 7);
     }
 
+    @Test
+    public void test6() {
+        openPage("http://jqueryui.com/tabs/", "Tabs");
+        wd.switchTo().frame(wd.findElement(By.xpath("//iframe[@class = 'demo-frame']")));
+        List<WebElement> allTabs = wd.findElements(By.xpath("//div[@id = 'tabs']//li"));
+        List<WebElement> selectedTabs = wd.findElements(By.xpath("//div[@id = 'tabs']//li[@aria-selected = 'true']"));
+        allTabs.removeAll(selectedTabs);
+        for (int i = 0; i < allTabs.size(); i++) {
+            List<WebElement> all = wd.findElements(By.xpath("//div[@id = 'tabs']//li"));
+            List<WebElement> selected = wd.findElements(By.xpath("//div[@id = 'tabs']//li[@aria-selected = 'true']"));
+            all.removeAll(selected);
+            all.get(i).click();
+            wait.until(attributeToBe(all.get(i), "aria-selected", "true"));
+        }
+    }
+
+    @Test
+    public void test7() {
+        wd.navigate().to("https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_lib_google");
+        wait.until(visibilityOfElementLocated(By.xpath("//button[contains(text(), 'Run')]")));
+        wd.switchTo().frame(wd.findElement(By.xpath("//iframe[@id = 'iframeResult']")));
+        String title = wd.findElement(By.xpath("//h2")).getText();
+        List<WebElement> paragraphs = wd.findElements(By.xpath("//p"));
+        wait.until(visibilityOfElementLocated(By.xpath("//button"))).click();
+    }
+
     public void setDate(int date) {
         WebElement datePicker = wd.findElement(By.xpath("//input[@id = 'datepicker']"));
         datePicker.click();

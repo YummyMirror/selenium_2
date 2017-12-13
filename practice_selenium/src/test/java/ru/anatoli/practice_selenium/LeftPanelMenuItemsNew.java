@@ -23,7 +23,7 @@ public class LeftPanelMenuItemsNew {
         wd = new ChromeDriver();
         wd.manage().window().maximize();
         wait = new WebDriverWait(wd, 10);
-        wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
+        wd.navigate().to("http://localhost/litecart/public_html/admin/loginAs.php");
     }
 
     @Test
@@ -49,7 +49,7 @@ public class LeftPanelMenuItemsNew {
         input(By.xpath("//input[@name = 'username']"), username);
         input(By.xpath("//input[@name = 'password']"), password);
         click(By.xpath("//input[@name = 'remember_me']"));
-        click(By.xpath("//button[@name = 'login']"));
+        click(By.xpath("//button[@name = 'loginAs']"));
     }
 
     public void click(By locator) {

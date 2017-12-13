@@ -31,7 +31,7 @@ public class STLoginWithoutCookies {
 
     @Test
     public void setCookies() throws IOException {
-        openUrl("http://software-testing.ru/lms/login/index.php");
+        openUrl("http://software-testing.ru/lms/loginAs/index.php");
         loginAs("yummymirror", "9009608ffb063b0");
 
         Set<Cookie> cookies = wd.manage().getCookies();

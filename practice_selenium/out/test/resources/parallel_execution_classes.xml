@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" parallel="classes" thread-count="2">
+    <test name="Test1">
+        <classes>
+            <class name="ru.anatoli.practice_selenium.FirstTest" />
+            <class name="ru.anatoli.practice_selenium.TestStructure.tests.LoginTests" />
+        </classes>
+    </test>
+</suite>

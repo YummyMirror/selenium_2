@@ -3,13 +3,14 @@ package ru.anatoli.practice_selenium.TestStructure.applicationManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 public class NavigationHelper extends HelperBase {
     //Constructor
-    public NavigationHelper(WebDriver wd, WebDriverWait wait) {
-        super(wd, wait);
+    public NavigationHelper(WebDriver wd, WebDriverWait wait, Actions actions) {
+        super(wd, wait, actions);
     }
 
     public List<WebElement> getMenuItems() {
@@ -35,5 +36,9 @@ public class NavigationHelper extends HelperBase {
                 }
             }
         }
+    }
+
+    public void showAlert(String text) {
+        js.executeScript("alert('" + text + "');");
     }
 }

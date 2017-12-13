@@ -3,6 +3,7 @@ package ru.anatoli.practice_selenium.TestStructure.applicationManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.anatoli.practice_selenium.TestStructure.models.CountryData;
@@ -10,8 +11,8 @@ import java.util.List;
 
 public class CountriesHelper extends HelperBase {
     //Constructor
-    public CountriesHelper(WebDriver wd, WebDriverWait wait) {
-        super(wd, wait);
+    public CountriesHelper(WebDriver wd, WebDriverWait wait, Actions actions) {
+        super(wd, wait, actions);
     }
 
     public List<WebElement> getCountries() {

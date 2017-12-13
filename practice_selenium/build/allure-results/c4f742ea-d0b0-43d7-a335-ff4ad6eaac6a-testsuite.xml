@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1513108352925" stop="1513108447826">
+    <name>BrowserStackExecution</name>
+    <test-cases>
+        <test-case start="1513108359179" stop="1513108365556" status="passed">
+            <name>test</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1513108365630" stop="1513108367815" status="passed">
+            <name>test2</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1513108367818" stop="1513108447757" status="passed">
+            <name>test3</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

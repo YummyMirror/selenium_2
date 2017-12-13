@@ -33,7 +33,7 @@ public class ExpectedConditionsTests {
     @Test
     public void alertIsPresent() throws IOException {
         Set<Cookie> jsonCookie = getJSONCookie();
-        wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
+        wd.navigate().to("http://localhost/litecart/public_html/admin/loginAs.php");
         jsonCookie.stream().forEach(cookie -> wd.manage().addCookie(cookie));
         wd.navigate().to("http://localhost/litecart/public_html/admin/?app=countries&doc=edit_country&country_code=AL");
         click(By.xpath("//button[@name = 'delete']"));
@@ -86,9 +86,9 @@ public class ExpectedConditionsTests {
         WebElement logoutButton = wd.findElement(By.xpath("//a[contains(@href, 'logout.php')]"));
         click(By.xpath("//a[contains(@href, 'logout.php')]"));
         wait.until(stalenessOf(logoutButton));
-        wait.until(textToBe(By.xpath("//button[@name = 'login']"), "Login"));
+        wait.until(textToBe(By.xpath("//button[@name = 'loginAs']"), "Login"));
 
-        WebElement loginButton = wd.findElement(By.xpath("//button[@name = 'login']"));
+        WebElement loginButton = wd.findElement(By.xpath("//button[@name = 'loginAs']"));
         ((JavascriptExecutor) wd).executeScript("arguments[0].style.border = '5px solid red';", loginButton);
         ((JavascriptExecutor) wd).executeScript("arguments[0].style['font-weight'] = 'normal'", loginButton);
     }

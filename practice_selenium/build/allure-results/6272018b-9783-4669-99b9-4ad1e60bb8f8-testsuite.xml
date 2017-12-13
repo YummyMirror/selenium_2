@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1512732794849" stop="1512732825804">
+    <name>Parallel</name>
+    <test-cases>
+        <test-case start="1512732800917" stop="1512732825019" status="passed">
+            <name>loginTest[public void ru.anatoli.practice_selenium.TestStructure.tests.LoginTests.loginTest(java.lang.reflect.Method)]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

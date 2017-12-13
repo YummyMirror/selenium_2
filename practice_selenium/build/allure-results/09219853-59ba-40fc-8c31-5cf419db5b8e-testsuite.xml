@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1512672406385" stop="1512672432940">
+    <name>Parallel</name>
+    <test-cases>
+        <test-case start="1512672406401" stop="1512672432936" status="passed">
+            <name>loginTest[public void ru.anatoli.practice_selenium.TestStructure.tests.LoginTests.loginTest(java.lang.reflect.Method)]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1512672410173" stop="1512672415184" status="passed">
+            <name>s13login</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1512672415224" stop="1512672419515" status="passed">
+            <name>simpleTest[public void ru.anatoli.practice_selenium.FirstTest.simpleTest(java.lang.reflect.Method)]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1512672419517" stop="1512672425740" status="passed">
+            <name>usingProxy[public void ru.anatoli.practice_selenium.FirstTest.usingProxy(java.lang.reflect.Method)]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

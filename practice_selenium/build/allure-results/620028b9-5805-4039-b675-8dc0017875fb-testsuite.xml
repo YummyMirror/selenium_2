@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1512731706032" stop="1512731738990">
+    <name>Parallel</name>
+    <test-cases>
+        <test-case start="1512731712015" stop="1512731736435" status="passed">
+            <name>loginTest[public void ru.anatoli.practice_selenium.TestStructure.tests.LoginTests.loginTest(java.lang.reflect.Method)]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1512731736471" stop="1512731738253" status="passed">
+            <name>findNecessaryMenuItem</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

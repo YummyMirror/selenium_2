@@ -20,7 +20,7 @@ public class LoginCarSharing {
         wd = new ChromeDriver();
         wait = new WebDriverWait(wd, 10);
         wd.manage().window().maximize();
-        wd.navigate().to("http://useyourcar.exposit.com/login");
+        wd.navigate().to("http://useyourcar.exposit.com/loginAs");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class = 'brand-text']")));
     }
 
@@ -35,7 +35,7 @@ public class LoginCarSharing {
     }
 
     public void loginAs(String login, String password) {
-        input(By.xpath("//input[@name = 'login']"), login);
+        input(By.xpath("//input[@name = 'loginAs']"), login);
         input(By.xpath("//input[@name = 'password']"), password);
         click(By.xpath("//button[contains(text(), ' Войти')]"));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class = 'name']")));

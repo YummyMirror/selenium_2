@@ -30,7 +30,7 @@ public class LoginWithoutCookies {
         wd.manage().window().maximize();
 
         Set<Cookie> cookies = getJSONCookie();
-        wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
+        wd.navigate().to("http://localhost/litecart/public_html/admin/loginAs.php");
         cookies.stream().forEach(c -> wd.manage().addCookie(c));
         wd.navigate().to("http://localhost/litecart/public_html/admin/?app=countries&doc=countries");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(), ' Countries')]")));

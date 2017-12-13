@@ -79,7 +79,7 @@ public class UYCLoginWithoutCookies {
 
     public void loginAs(String login, String password) {
         openLoginForm();
-        input(By.xpath("//input[@name = 'login']"), login);
+        input(By.xpath("//input[@name = 'loginAs']"), login);
         input(By.xpath("//input[@name = 'password']"), password);
         submitLoginForm();
     }

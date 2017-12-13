@@ -1,18 +1,18 @@
 package ru.anatoli.practice_selenium.TestStructure.tests;
 
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import ru.anatoli.practice_selenium.TestStructure.applicationManager.ApplicationManager;
 
 public class TestBase {
     protected static ApplicationManager applicationManager = new ApplicationManager();
 
-    @BeforeSuite
-    public void start() {
-        applicationManager.init();
+    @Parameters("browser")
+    @BeforeTest
+    public void start(String browser) {
+        applicationManager.init(browser);
     }
 
-    @AfterSuite
+    @AfterTest
     public void stop() {
         applicationManager.tearDown();
     }

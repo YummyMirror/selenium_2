@@ -31,7 +31,7 @@ public class STLoginWithCookies {
     @Test
     public void test() throws IOException {
         List<Cookie> cookieJSON = getCookieJSON();
-        openUrl("http://software-testing.ru/lms/login/index.php");
+        openUrl("http://software-testing.ru/lms/loginAs/index.php");
         cookieJSON.stream().forEach(c -> wd.manage().addCookie(c));
         openUrl("http://software-testing.ru/lms/my/");
     }

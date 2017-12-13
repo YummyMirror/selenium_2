@@ -23,13 +23,13 @@ public class HomeTask14 {
         wd = new ChromeDriver();
         wait = new WebDriverWait(wd, 10);
         wd.manage().window().maximize();
-        wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
+        wd.navigate().to("http://localhost/litecart/public_html/admin/loginAs.php");
     }
 
     @Test
     public void test() {
 //        First version
-//        login("admin", "admin");
+//        loginAs("admin", "admin");
 //        openCountriesPage();
 //        openAustriaCountry();
 //        List<WebElement> blankLinks = getBlankLinks();
@@ -111,7 +111,7 @@ public class HomeTask14 {
         input(By.xpath("//input[@name = 'username']"), login);
         input(By.xpath("//input[@name = 'password']"), password);
         checkBox(By.xpath("//input[@name = 'remember_me']"));
-        submitForm(By.xpath("//button[@name = 'login']"));
+        submitForm(By.xpath("//button[@name = 'loginAs']"));
     }
 
     public void submitForm(By locator) {

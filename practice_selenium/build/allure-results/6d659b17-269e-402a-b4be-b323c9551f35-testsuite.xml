@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1512396714323" stop="1512396717683">
+    <name>Default Suite</name>
+    <test-cases>
+        <test-case start="1512396714336" stop="1512396717632" status="passed">
+            <name>uploading3</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

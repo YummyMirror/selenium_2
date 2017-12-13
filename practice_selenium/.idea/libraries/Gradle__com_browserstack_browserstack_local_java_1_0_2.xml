@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.browserstack:browserstack-local-java:1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-local-java/1.0.2/1da6c61306f6855dd40ead4a9188c36656128423/browserstack-local-java-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-local-java/1.0.2/59ef2ae55cb6d946eb15d25855b9e48b147c9af9/browserstack-local-java-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

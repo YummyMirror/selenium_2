@@ -55,7 +55,7 @@ public class RegistrationTask {
     @BeforeMethod
     public void before() {
         wd = new EventFiringWebDriver(new ChromeDriver());
-        wd.register(new Listener());
+        //wd.register(new Listener());
         wait = new WebDriverWait(wd, 10);
         wd.manage().window().maximize();
         wd.navigate().to("http://localhost/litecart/public_html/en/");
@@ -72,10 +72,10 @@ public class RegistrationTask {
     }
 
     public void reLogin() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id = 'box-account-login']/h3[contains(text(), 'Login')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id = 'box-account-loginAs']/h3[contains(text(), 'Login')]")));
         input(By.xpath("//input[@name = 'email']"), email);
         input(By.xpath("//input[@name = 'password']"), PASSWORD);
-        click(By.xpath("//button[@name = 'login']"));
+        click(By.xpath("//button[@name = 'loginAs']"));
     }
 
     public void logOut() {

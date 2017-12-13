@@ -24,7 +24,7 @@ public class HomeTask17 {
         wd = new ChromeDriver();
         wait = new WebDriverWait(wd, 10);
         wd.manage().window().maximize();
-        wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
+        wd.navigate().to("http://localhost/litecart/public_html/admin/loginAs.php");
     }
 
     @Test
@@ -92,7 +92,7 @@ public class HomeTask17 {
         input(By.xpath("//input[@name = 'username']"), login);
         input(By.xpath("//input[@name = 'password']"), password);
         check(By.xpath("//input[@name = 'remember_me']"));
-        click(By.xpath("//button[@name = 'login']"));
+        click(By.xpath("//button[@name = 'loginAs']"));
         wait.until(visibilityOfElementLocated(By.xpath("//a[contains(@href, 'logout.php')]")));
     }
 

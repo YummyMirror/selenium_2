@@ -36,7 +36,7 @@ public class LiteCartLoginTests {
         //wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wait = new WebDriverWait(wd, 10);
-        wd.navigate().to("http://localhost/litecart/public_html/admin/login.php");
+        wd.navigate().to("http://localhost/litecart/public_html/admin/loginAs.php");
         System.out.println(((HasCapabilities) wd).getCapabilities());
     }
 
@@ -193,7 +193,7 @@ public class LiteCartLoginTests {
         input(By.xpath("//input[@name = 'username']"), login);
         input(By.xpath("//input[@name = 'password']"), password);
         checkBox(By.xpath("//input[@name = 'remember_me']"));
-        submitForm(By.xpath("//button[@name = 'login']"));
+        submitForm(By.xpath("//button[@name = 'loginAs']"));
     }
 
     public void submitForm(By locator) {
